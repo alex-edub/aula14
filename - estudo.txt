@@ -1,0 +1,34 @@
+Javascript
+
+variáveis (var, let, const)
+Tipos de dados (number, string, boolean, array, object)
+Tabela verdade
+Condicionais (if, else, else if)
+Operadores de comparação (==, ===, !=, !==, >, <, >=, <=)
+Operadores lógicos (&&, ||, !)
+
+let idade = prompt('Digite sua idade:')
+if (idade >= 18) {
+console.log('Você é maior de idade')
+}
+else{
+console.log("Você é menor de idade")
+}
+
+
+
+^ = &&
+V = ||??
+~ = !
+
+const P = True
+!!P
+const nome = prompt ('Digite seu nome:')
+console.log(!!nome)
+
+>
+<
+>=
+<=
+
+https://www.programiz.com/javascript/online-compiler/
