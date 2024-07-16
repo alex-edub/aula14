@@ -2,9 +2,9 @@ const nota=prompt('Digite a nota de 0 a 10:')
 if (nota >= 7){
 console.log('Você está Aprovado!')
 }
-if (nota <7){
+else if(nota >=5){
     console.log('Você está de Recuperação!')
 }
-if (nota <5) {
+else {
     console.log('Você está Reprovado!')
 }
