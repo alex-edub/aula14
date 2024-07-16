@@ -1,0 +1,23 @@
+const operacao=prompt ("Escolha a operação que deseja realizar:1-Adição 2-Subtração 3- Multiplicação  4- Divisão");
+    if (operacao >= 1 && operacao <= 4) {
+        const numero1 = prompt("Digite o primeiro número:");
+        const numero2 = prompt("Digite o segundo número:");
+        let resultado;
+        if (operacao === 1) {
+            resultado = numero1 + numero2;
+            console.log(`O resultado da adição é: ${resultado}`);
+        }
+         else if (operacao === 2) {
+            resultado = numero1 - numero2;
+            console.log(`O resultado da subtração é: ${resultado}`);
+        } else if (operacao === 3) {
+            resultado = numero1 * numero2;
+            console.log(`O resultado da multiplicação é: ${resultado}`);
+        } else if (operacao === 4) {
+            if (numero2 !== 0) {
+                resultado = numero1 / numero2;
+               console.log(`O resultado da divisão é: ${resultado}`);
+            } else {
+                console.log("Não é possível dividir por zero.");
+            }
+        
