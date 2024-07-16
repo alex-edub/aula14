@@ -1,8 +1,8 @@
 const idade=prompt('Digite a idade:')
-if (idade <= 12){
+if (idade >0 && idade <= 12){
 console.log ("Você é criança");
 }
-if (idade > 12 && idade <=17){
+if (idade > 12 && idade <=17) {
 console.log ("Você é Adolescente");
 }
 if (idade > 17 && idade <=59){
@@ -10,4 +10,7 @@ console.log ("Você é Adulto");
 }
 if (idade > 59){
 console.log ("Você é Idoso");
+}
+else {
+console.log ("Idade inválida");
 }
